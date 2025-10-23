@@ -43,12 +43,12 @@ class HotelListScreen extends StatelessWidget {
                                   ? 'New York, USA'
                                   : 'Lake Tahoe, USA',
                           imageUrl: index == sampleHotels.length
-                              // Mountain Lodge Retreat -> use Unsplash provided by user
+                              // Mountain Lodge Retreat
                               ? 'https://plus.unsplash.com/premium_photo-1661964071015-d97428970584?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aG90ZWx8ZW58MHx8MHx8fDA%3D&fm=jpg&q=60&w=3000'
                               : index == sampleHotels.length + 1
-                                  // City Center Inn -> use iStock pool image provided by user
+                                  // City Center Inn 
                                   ? 'https://media.istockphoto.com/id/119926339/photo/resort-swimming-pool.jpg?s=612x612&w=0&k=20&c=9QtwJC2boq3GFHaeDsKytF4-CavYKQuy1jBD2IRfYKc='
-                                  // Lakeside Escape -> use the same Unsplash link (user provided twice)
+                                  // Lakeside Escape 
                                   : 'https://plus.unsplash.com/premium_photo-1661964071015-d97428970584?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aG90ZWx8ZW58MHx8MHx8fDA%3D&fm=jpg&q=60&w=3000',
                           rating: index == sampleHotels.length ? 4.8 : 4.3,
                           reviews: 20,
