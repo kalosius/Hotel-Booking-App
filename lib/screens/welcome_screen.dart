@@ -15,7 +15,7 @@ class WelcomeScreen extends StatelessWidget {
                 children: [
                   Positioned.fill(
                     child: Image.network(
-                      'https://images.unsplash.com/photo-1501117716987-c8e1ecb39107?q=80&w=1400&auto=format&fit=crop&ixlib=rb-4.0.3&s=4b4d3b1d3f4f6a7b7c8d9e0f1a2b3c4d',
+                      'https://images.unsplash.com/photo-1495365200479-c4ed1d35e1aa?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGhvdGVsfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=500',
                       fit: BoxFit.cover,
                     ),
                   ),
@@ -53,7 +53,7 @@ class WelcomeScreen extends StatelessWidget {
                               style: Theme.of(context)
                                   .textTheme
                                   .bodyMedium
-                                  ?.copyWith(color: Colors.grey[700])),
+                                  ?.copyWith(color: const Color.fromARGB(255, 41, 41, 41))),
                           SizedBox(height: 24),
                           SizedBox(
                             width: double.infinity,
@@ -65,6 +65,7 @@ class WelcomeScreen extends StatelessWidget {
                                     const EdgeInsets.symmetric(vertical: 14.0),
                                 child: Text('Sign up',
                                     style: TextStyle(
+                                        color: Colors.white,
                                         fontSize: 16,
                                         fontWeight: FontWeight.w600)),
                               ),
