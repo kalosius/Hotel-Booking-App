@@ -1,0 +1,17 @@
+name: hotelapp
+description: Frontend-only Flutter app implementing hotel booking UI screens from provided designs.
+publish_to: none
+version: 0.0.1
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^5.0.0
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
