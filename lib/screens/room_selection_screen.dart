@@ -117,7 +117,7 @@ class _RoomSelectionScreenState extends State<RoomSelectionScreen> {
                 },
                 child: Padding(
                     padding: const EdgeInsets.symmetric(vertical: 16.0),
-                    child: Text('Continue')),
+                    child: Text('Continue', style: TextStyle(color: Colors.white))),
                 style: ElevatedButton.styleFrom(
                     backgroundColor: Colors.blue[400],
                     shape: RoundedRectangleBorder(

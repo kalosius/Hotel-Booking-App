@@ -73,7 +73,7 @@ final sampleHotels = [
     name: 'Ocean View Resort',
     location: 'Malibu, California',
     imageUrl:
-        'https://images.unsplash.com/photo-1501117716987-c8e1ecb39107?q=80&w=1400&auto=format&fit=crop&ixlib=rb-4.0.3&s=4b4d3b1d3f4f6a7b7c8d9e0f1a2b3c4d',
+        'https://digital.ihg.com/is/image/ihg/ihgor-member-rate-web-offers-1440x720?fit=crop,1&wid=1440&hei=720',
     rating: 4.2,
     reviews: 98,
     amenities: ['Pool', 'Beach', 'Restaurant', 'Free Wifi'],

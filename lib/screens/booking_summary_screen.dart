@@ -1,4 +1,4 @@
-// ignore_for_file: prefer_const_constructors, sort_child_properties_last
+// ignore_for_file: prefer_const_constructors, sort_child_properties_last, prefer_const_declarations
 
 import 'package:flutter/material.dart';
 import '../sample_hotels.dart';
@@ -10,7 +10,6 @@ class BookingSummaryScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     final Hotel hotel = ModalRoute.of(context)?.settings.arguments as Hotel? ??
         sampleHotels.first;
-    // ignore: prefer_const_declarations
     final nights = 2;
     final perNight = hotel.rooms.first.price;
     final subtotal = perNight * nights;
@@ -122,14 +121,14 @@ class BookingSummaryScreen extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Text('Name', style: TextStyle(color: Colors.grey)),
-                      Text('Ethan Carter')
+                      Text('Shatrah Eshaal')
                     ]),
                 SizedBox(height: 8),
                 Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Text('Email', style: TextStyle(color: Colors.grey)),
-                      Text('ethan.carter@example.com')
+                      Text('eshaal@mubs.ac.ug')
                     ]),
               ])),
           SizedBox(height: 20),

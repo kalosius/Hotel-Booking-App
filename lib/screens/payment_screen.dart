@@ -130,12 +130,12 @@ class _PaymentScreenState extends State<PaymentScreen> {
                   },
                   child: Padding(
                       padding: const EdgeInsets.symmetric(vertical: 16.0),
-                      child: Text('Confirm Payment')),
+                      child: Text('Confirm Payment', style: TextStyle(color: Colors.white))),
                   style: ElevatedButton.styleFrom(
                       backgroundColor: Colors.blue[400],
                       shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(10))))),
-        ]),
+        ])
       ),
     );
   }
